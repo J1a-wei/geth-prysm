@@ -1,4 +1,4 @@
 up:
-	docker-compose -f eth.yaml up -d
+	docker compose -f eth.yaml up -d
 down:
-	docker-compose -f eth.yaml stop
+	docker compose -f eth.yaml stop
